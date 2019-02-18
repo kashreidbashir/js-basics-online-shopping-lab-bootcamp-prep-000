@@ -6,7 +6,7 @@ function takeANumber(currentLine, name)
 var placeInLine = currentLine.length + 1;
 // This line calculates the place in the line for the new joiner
 
-var outputString = “Welcome, ” + name +”. You are number ” + placeInLine + ” in line.”;
+var outputString = “Welcome, ” + name +”. "You are number" ” + placeInLine + ” in line.”;
 // This line defines the output sentence which will be returned when called, informing the recipient of their current place in the queue
 
 currentLine.push(name);
